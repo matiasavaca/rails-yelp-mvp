@@ -3,4 +3,6 @@
 
 require_relative "config/application"
 
+task default: [:test, :migrate]
+
 Rails.application.load_tasks
